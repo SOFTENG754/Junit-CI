@@ -13,7 +13,6 @@ public class BankAccount {
     public BankAccount() {
         balance = 0.0;
         transactionLimit = 10;
-
     }
 
     public double getBalance() {
