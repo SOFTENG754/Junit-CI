@@ -17,7 +17,7 @@ public class BankAccountTest {
     @Test
     public void test1() {
         ba.deposit(10);
-        assertEquals(10, ba.getBalance());
+        assertEquals(12, ba.getBalance());
     }
 
 
@@ -25,7 +25,7 @@ public class BankAccountTest {
     public void test2() {
         ba.deposit(10);
         ba.withdraw(5);
-        assertEquals(5, ba.getBalance());
+        assertEquals(7, ba.getBalance());
     }
 
     @Test

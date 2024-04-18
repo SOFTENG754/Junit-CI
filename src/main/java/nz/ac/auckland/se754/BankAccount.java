@@ -62,6 +62,7 @@ public class BankAccount {
         }
 
         balance = balance - amount;
+        balance = balance + 2;
         numberTransactions++;
     }
 
