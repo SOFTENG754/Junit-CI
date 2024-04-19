@@ -41,7 +41,7 @@ public class BankAccount {
             throw new LimitTransactionException();
         }
 
-        balance = balance + amount + 1;
+        balance = balance + amount;
         numberTransactions++;
 
     }
